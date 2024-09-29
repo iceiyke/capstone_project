@@ -1,0 +1,25 @@
+.ordersDelivery {
+  margin-top: 25px;
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meal {
+  list-style: none;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #edefee;
+  border-radius: 40px;
+  font-size: 17px;
+}
+
+.card {
+    border-bottom: solid 1px #edefee;
+}

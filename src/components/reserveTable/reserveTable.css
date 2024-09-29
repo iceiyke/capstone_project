@@ -1,0 +1,53 @@
+.content {
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.reserve {
+  display: block;
+  width: 49%;
+}
+
+.image {
+  width: 49%;
+  height: 630px;
+  background-image: url("../../images/restauranfood.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 7px;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  background-color: #f4ce14;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  font-size: 15px;
+}
+
+fieldset {
+  border-radius: 20px;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400&display=swap");
+
+.hero {
+  width: 90%;
+  height: 350px;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+}
+
+.hero h2 {
+  font-family: "Markazi Text";
+  font-size: 40px;
+  font-weight: bold;
+  color: #f4ce14;
+  /* margin-bottom: -25px; */
+}
+
+.hero h3 {
+  color: #495e57;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+  line-height: 20px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: #495e57;
+  width: 100px;
+  padding: 12px;
+  background-color: #f4ce14;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hero img {
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  right: 25%;
+  border-radius: 15%;
+}
+
+.btn {
+  margin-top: 25px;
+}

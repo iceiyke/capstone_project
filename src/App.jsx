@@ -1,16 +1,20 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Nav from "./components/Nav";
-import Main from "./components/Main";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer";
+import { About, Contact, Home, Services } from "../src/pages";
+import Navbar from "./components/navbar/Navbar";
+import GetTable from "./pages/GetTable";
 
 function App() {
   return (
     <>
-      <Nav />
-      <Main />
-      <Menu />
-      <Footer />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/getTable" element={<GetTable />} />
+      </Routes>
     </>
   );
 }

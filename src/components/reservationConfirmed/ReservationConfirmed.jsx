@@ -6,7 +6,7 @@ const ReservationConfirmed = () => {
   const { reservation } = useContext(ReservationContext);
 
   if (!reservation) {
-    return <h3>No reservation made yet!</h3>;
+    return <h3 className="moveText">No reservation made yet!</h3>;
   }
 
   return (

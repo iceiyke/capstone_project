@@ -44,6 +44,7 @@ const ReserveTable = () => {
                 value={formData.occasion}
                 onChange={handleChange}
               >
+                <option value="NA">select Occasion Type</option>
                 <option value="anniversary">Anniversary</option>
                 <option value="dedication">Baby Dedication</option>
                 <option value="birthday">Birthday</option>
@@ -72,6 +73,7 @@ const ReserveTable = () => {
                 value={formData.time}
                 onChange={handleChange}
               >
+                <option value="">Select Time Period</option>
                 <option value="7.30">7.30</option>
                 <option value="8.30">8.30</option>
                 <option value="9.30">9.30</option>
@@ -95,6 +97,7 @@ const ReserveTable = () => {
               <input
                 type="text"
                 name="people"
+                placeholder="Select number of Guests"
                 value={formData.people}
                 onChange={handleChange}
               />
@@ -109,6 +112,7 @@ const ReserveTable = () => {
                 value={formData.table}
                 onChange={handleChange}
               >
+                <option value="">Select Table</option>
                 <option value="table-1">Table 1</option>
                 <option value="table-2">Table 2</option>
                 <option value="table-3">Table 3</option>

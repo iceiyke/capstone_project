@@ -2,7 +2,6 @@
   margin-top: 25px;
   padding-top: 20px;
   font-size: 25px;
-  text-align: center;
 }
 
 ul {
@@ -21,5 +20,5 @@ ul {
 }
 
 .card {
-    border-bottom: solid 1px #edefee;
+  border-bottom: solid 1px #edefee;
 }
